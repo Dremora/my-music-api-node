@@ -1,0 +1,21 @@
+{
+  "name": "my-music-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Kirill Korolyov",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^3.1.0",
+    "cradle": "~0.6.7",
+    "dotenv": "^0.4.0",
+    "elasticsearch": "^2.4.3",
+    "koa": "^0.12.2",
+    "koa-body-parser": "~1.1.0",
+    "koa-bodyparser": "~1.0.1",
+    "koa-logger": "^1.2.2",
+    "koa-router": "^3.4.0",
+    "lodash": "^2.4.1",
+    "thunkify": "^2.1.2"
+  }
+}
