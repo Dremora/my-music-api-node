@@ -88,6 +88,6 @@ app.put('/albums/:id', function *() {
   }
 })
 
-var port = 3000
+var port = process.env.PORT || 3000
 app.listen(port)
 console.log('Server started on port ' + port)
