@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - "0.11"
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: bdw+L6W3VybnRnCrbYraAt8uQVRuRcJuI/zM5b80Qsv/DAPgedUV5ii7bMYhUe0ebBd7nwjPF62gkBi9zsFO2L9qBSH65smyInXHclmxefvfZY7VXq9d01BNwJpFuoZ9oeSd7NHmNi0P4QJHLqGLN/NELYWWSvlwoTlt+i7GPJw=
+  app: my-music-api
+  on:
+    repo: Dremora/my-music-api
