@@ -18,7 +18,6 @@ app.use(passport.initialize())
 app.use(passport.session())
 
 app.use(auth.router.middleware())
-app.use(auth.authenticated)
 app.use(router.middleware())
 
 app.listen(config.port)
