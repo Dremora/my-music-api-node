@@ -9,6 +9,7 @@
     "iojs": ">= 1.5.1"
   },
   "dependencies": {
+    "common-errors": "^0.4.18",
     "cradle": "~0.6.7",
     "dotenv": "^0.4.0",
     "elasticsearch": "^2.4.3",
@@ -20,6 +21,7 @@
     "koa-session": "^2.0.0",
     "lodash": "^2.4.1",
     "passport-facebook": "^1.0.3",
+    "tcomb-validation": "^1.0.0",
     "thunkify": "^2.1.2"
   }
 }
