@@ -6,7 +6,7 @@
   "author": "Kirill Korolyov",
   "license": "MIT",
   "engines": {
-    "iojs": ">= 1.5.1"
+    "iojs": "2.4.0"
   },
   "dependencies": {
     "common-errors": "^0.4.18",
