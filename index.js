@@ -1,7 +1,6 @@
 var koa = require('koa')
   , logger = require('koa-logger')
   , bodyParser = require('koa-bodyparser')
-  , session = require('koa-session')
   , passport = require('koa-passport')
   , auth = require('./lib/auth')
   , config = require('./lib/config')
@@ -10,14 +9,10 @@ var koa = require('koa')
 
 var app = koa()
 
-app.keys = [config.cookiesKey]
-
 app.use(logger())
 app.use(errorHandler())
 app.use(bodyParser())
-app.use(session())
 app.use(passport.initialize())
-app.use(passport.session())
 
 app.use(auth.router.middleware())
 app.use(router.middleware())
